@@ -3,6 +3,8 @@ import Dropzone from 'react-dropzone'
 import XLSX from 'xlsx'
 
 function ExcelDropzone (props) {
+  const { label } = props
+
   function handleFile (acceptedFiles, rejectedFiles) {
     const file = acceptedFiles[0]
     const reader = new window.FileReader()
@@ -19,7 +21,9 @@ function ExcelDropzone (props) {
     <Dropzone
       multiple={false}
       onDrop={handleFile}
-    />
+    >
+      <p className="excel-dropzone__label">{ label }</p>
+    </Dropzone>
   )
 }
 
