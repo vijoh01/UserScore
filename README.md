@@ -18,5 +18,12 @@ you do feel that you want to add some css or less, you can do that in this file.
 We have provided you with the dependency `mt-ui` that you may use to structure the graphic components of the app. It is not a requirement that you use it, just something
 that might make it easier for you so that you can focus on code and not on the looks of the application. It contains a grid that is explained on the initial page.
 
-## Exercise Instructions
-At the links below you will find two lists, one of users and one of their scores in a game. Create a React app that displays a ranking list where each user is displayed only once with their highest score in descending order. If you click on a user, a separate list should be visible showing all their scores in descending order. The app should also have a form where you can enter new scores with the user's name and score. If the user name does not already exist, that name should be added to the list of users. New data does not need to be saved on reload.
+# The exercise - Ranking app
+The goal of this exercise is to create a ranking app based on some users and their scores.
+In this repository you will find two files containing initial data `lib/user.js` and `lib/scores.js`.
+
+Create a React app that displays a ranking list where each user is displayed only once with their highest score in descending order. If you click on a user, a separate list should be visible showing all their scores in descending order. The app should also have a form where you can enter new scores with the user's name and score. If the user name does not already exist, that name should be added to the list of users. New data does not need to be saved on reload.
+
+## Excel import
+The app should also handle excel import of scores. We have prepared the app so that you can drag and drop an excel file into a dropzone on the page, from there the excel file is parsed and the data should be available to you.
+Start the app to see how this works. You will find a file `scores.xlsx` in this repo that you can import to your app.
