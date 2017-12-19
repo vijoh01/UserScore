@@ -22,7 +22,11 @@ that might make it easier for you so that you can focus on code and not on the l
 The goal of this exercise is to create a ranking app based on some users and their scores.
 In this repository you will find two files containing initial data `lib/user.js` and `lib/scores.js`.
 
-Create a React app that displays a ranking list where each user is displayed only once with their highest score in descending order. If you click on a user, a separate list should be visible showing all their scores in descending order. The app should also have a form where you can enter new scores with the user's name and score. If the user name does not already exist, that name should be added to the list of users. New data does not need to be saved on reload.
+Create a React app that displays a ranking list where each user from the files is displayed only once. The list should be in descending order where the first user is the one with the highest score, the second user is the next best and so on.
+If you click on a user, a separate list should be visible showing all the scores for that user in descending order.
+The app should also have a form where you can enter new scores with the user's name and score.
+If the user name does not already exist, that name should be added to the ranking list.
+New data does not need to be saved on reload.
 
 ## Excel import
 The app should also handle excel import of scores. We have prepared the app so that you can drag and drop an excel file into a dropzone on the page, from there the excel file is parsed and the data should be available to you.
