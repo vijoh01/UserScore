@@ -10,24 +10,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mt-ui": "^0.6.13",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "mt-ui": "^1.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-dropzone": "^4.2.3",
-    "xlsx": "^0.11.12"
+    "xlsx": "^0.14.2"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.5.0",
     "babelify": "^8.0.0",
-    "browserify": "^14.5.0",
-    "connect": "^3.6.5",
+    "browserify": "^16.2.3",
+    "connect": "^3.6.6",
     "less": "^2.7.3",
     "less-plugin-npm-import": "^2.1.0",
-    "livereload": "^0.6.0",
+    "livereload": "^0.7.0",
     "mkdirp": "^0.5.1",
-    "serve-static": "^1.13.1",
-    "watchify": "^3.7.0"
+    "serve-static": "^1.13.2",
+    "watchify": "^3.11.1"
   }
 }
