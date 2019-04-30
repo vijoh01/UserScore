@@ -35,12 +35,10 @@ export default class Main extends React.Component {
                 This is basically what you need to know:
               </p>
               <ul>
-                <li>Each row will be located beneath the previous one</li>
-                <li>Columns in one row will stretch to the width of the entire parent component and they will have the same size unless you provide them with a with property</li>
-                <li>If you set the width you do so in percent</li>
-                <li>You can also use offset to create space betweeen your columns</li>
-                <li>The total width and offset of the columns in a row should equal 100</li>
-                <li>It is also possible to nest rows and columns within each other</li>
+                <li>The index.jsx file uses these components so you can see an example of how they work</li>
+                <li>MTRow will always create a line break</li>
+                <li>MTColumns will stretch to the width of the entire row, unless you use the properties width and offset</li>
+                <li>Width and offset is set in percent</li>
               </ul>
             </div>
           </MTColumn>
