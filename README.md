@@ -7,10 +7,10 @@ Below you will find instructions for how to run the app and the exercise itself.
 
 ## Working with the application
 
-After cloning this repo, install all dependencies using `yarn` or `npm`. When that is complete, run the server by executing `yarn demo` or `npm run demo`.
+After cloning this repo, install all dependencies using `yarn` or `npm` (preferably yarn). When that is complete, run the server by executing `yarn start` or `npm run demo`.
 You will now be able to access the initial application through your browser at `http://localhost:3000`.
 
-In the folder `lib` you will find a file called `index.jsx` that is the main file for your application. You can import other files from there.
+In the folder `src` you will find a file called `app.jsx` that is the main module for your application. You can import other files from there.
 You will also find the file `style.less` which is the base for styling. There are no requirements on a nice look and feel for this exercise but if
 you do feel that you want to add some css or less, you can do that in this file. Whenever you make changes to any of these files or imports form them, the application should update by itself.
 
@@ -31,9 +31,9 @@ finish part 1 first and then move on to the other ones to the best of your abili
 
 ## List existing scores
 
-In this repository you will find two files containing initial data `lib/users.js` and `lib/scores.js`.
+In this repository you will find two files containing initial data `src/users.js` and `src/scores.js`.
 
-Create a React app that displays a ranking list where each user in the file `lib/users.js` is displayed only once along with their best score from the file `lib/scores.js`. The user with the highest score should be listed first and the rest in descending order. See section [Expected results](#expected-results) for a specific explanation of what the result should look like. If you click on a user, a separate list should be visible showing all their scores in descending order.
+Create a React app that displays a ranking list where each user in the file `src/users.js` is displayed only once along with their best score from the file `src/scores.js`. The user with the highest score should be listed first and the rest in descending order. See section [Expected results](#expected-results) for a specific explanation of what the result should look like. If you click on a user, a separate list should be visible showing all their scores in descending order.
 
 ## Add Form
 The app should also have a form where you can enter a name and a score. If the user name does not already exist, that name should be added to the list of users. New data does not need to be saved on reload.

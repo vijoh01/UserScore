@@ -19,5 +19,5 @@ export default [
   { userId: 2, score: 742 },
   { userId: 1, score: 983 },
   { userId: 1, score: 163 },
-  { userId: 3, score: 701 }
+  { userId: 3, score: 701 },
 ]
