@@ -19,7 +19,7 @@
     "react-dom": "^16.13.1",
     "react-dropzone": "^4.2.3",
     "react-scripts": "3.4.3",
-    "xlsx": "^0.14.2"
+    "xlsx": "^0.16.7"
   },
   "browserslist": {
     "production": [
