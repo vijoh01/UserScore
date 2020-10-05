@@ -39,7 +39,9 @@ Create a React app that displays a ranking list where each user in the file `src
 If you click on a user, a separate list should be visible showing all scores registered for that user in descending order.
 
 ## Add Form
-The app should also have a form where you can enter a name and a score. If the user name does not already exist, that name should be added to the list of users. New data does not need to be saved on reload.
+The app should also have a form where you can enter a name and a score. If the user name does not already exist, that name should be added to the list of users. If the user _does_ exist, the score should be added to them and the ranking list updated if needed.
+
+New data does not need to be saved on reload.
 
 ## Excel import
 The app should also handle excel import of scores. We have prepared the app so that you can drag and drop an excel file into a dropzone on the page, from there the excel file is parsed and the data should be available to you.
