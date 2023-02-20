@@ -1,5 +1,6 @@
 import React from 'react'
 import Dropzone from 'react-dropzone'
+import {  Box, Center } from '@northlight/ui'
 import XLSX from 'xlsx'
 
 function ExcelDropzone (props) {
@@ -18,12 +19,14 @@ function ExcelDropzone (props) {
   }
 
   return (
-    <Dropzone
-      multiple={ false }
-      onDrop={ handleFile }
-    >
-      <p className="excel-dropzone__label">{ label }</p>
-    </Dropzone>
+    <Box>
+      <Dropzone
+        multiple={ false }
+        onDrop={ handleFile }
+      >
+        <Center height="200">{ label }</Center>
+      </Dropzone>
+    </Box>
   )
 }
 

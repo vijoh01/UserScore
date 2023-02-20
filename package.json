@@ -4,33 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
+    "start": "vite"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@craco/craco": "^5.6.4",
-    "craco-less": "^1.17.0",
-    "mt-ui": "^3.0.28",
+    "@northlight/icons": "^1.0.1",
+    "@northlight/tokens": "^1.0.2",
+    "@northlight/ui": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-dropzone": "^4.2.3",
-    "react-scripts": "3.4.3",
     "xlsx": "^0.16.7"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react-router-dom": "^6.8.1",
+    "vite": "^4.1.3"
   }
 }
