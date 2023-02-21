@@ -10,12 +10,12 @@ import {
   H2,
 } from '@northlight/ui'
 import { palette } from '@northlight/tokens'
-import ExcelDropzone from './excel-dropzone.jsx'
+import { ExcelDropzone, ExcelRow } from './excel-dropzone.jsx'
 
 const ExternalLink = ({ href, children }) => <Link href={href} isExternal sx={ {color: palette.blue['500'], textDecoration: 'underline'} }>{ children }</Link>
 
 export default function App () {
-  function handleSheetData (data) {
+  function handleSheetData (data: ExcelRow[]) {
     // replace this log with actual handling of the data
     console.log(data)
   }

@@ -14,10 +14,6 @@ In the folder `src` you will find a file called `app.jsx` that is the main modul
 You will also find the file `style.less` which is the base for styling. There are no requirements on a nice look and feel for this exercise but if
 you do feel that you want to add some css or less, you can do that in this file. Whenever you make changes to any of these files or imports form them, the application should update by itself.
 
-## mt-ui
-We have provided you with the dependency `mt-ui` that you may use to structure the graphic components of the app. It is not a requirement that you use it, just something
-that might make it easier for you so that you can focus on code and not on the looks of the application. It contains a grid that is explained on the initial page.
-
 # The exercise - Ranking app
 The goal of this exercise is to create a ranking app based on some users and their scores.
 It consists of three parts:
