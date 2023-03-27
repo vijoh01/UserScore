@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { Link } from '@chakra-ui/react'
 import {
   Container,
@@ -12,7 +12,12 @@ import {
 import { palette } from '@northlight/tokens'
 import { ExcelDropzone, ExcelRow } from './excel-dropzone.jsx'
 
-const ExternalLink = ({ href, children }) => <Link href={href} isExternal sx={ {color: palette.blue['500'], textDecoration: 'underline'} }>{ children }</Link>
+interface ExternalLinkProps {
+  href: string,
+  children: ReactNode,
+}
+
+const ExternalLink = ({ href, children }: ExternalLinkProps) => <Link href={href} isExternal sx={ {color: palette.blue['500'], textDecoration: 'underline'} }>{ children }</Link>
 
 export default function App () {
   function handleSheetData (data: ExcelRow[]) {

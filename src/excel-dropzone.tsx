@@ -21,7 +21,7 @@ export function ExcelDropzone (props: ExcelDropzoneProps) {
     const file = acceptedFiles[0]
     const reader = new window.FileReader()
     reader.onload = function (e) {
-      const data = e.target.result
+      const data = e.target?.result
       const workbook = read(data, { type: 'binary' })
       const sheetName = workbook.SheetNames[0]
       onSheetDrop(utils.sheet_to_json(workbook.Sheets[sheetName]))
