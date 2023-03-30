@@ -8,7 +8,7 @@ Below you will find instructions for how to run the app and the exercise itself.
 ## Working with the application
 
 After cloning this repo, install all dependencies using `yarn` or `npm` (preferably yarn). When that is complete, run the server by executing `yarn start` or `npm run start`.
-You will now be able to access the initial application through your browser at `http://localhost:3000`.
+You will now be able to access the initial application through your browser at the url displayed in your terminal.
 
 In the folder `src` you will find a file called `app.jsx` that is the main module for your application. You can import other files from there.
 You will also find the file `style.less` which is the base for styling. There are no requirements on a nice look and feel for this exercise but if
