@@ -7,7 +7,7 @@ Below you will find instructions for how to run the app and the exercise itself.
 
 ## Working with the application
 
-After cloning this repo, install all dependencies using `yarn` or `npm` (preferably yarn). When that is complete, run the server by executing `yarn start` or `npm run start`.
+After cloning this repo, install all dependencies using `npm`. When that is complete, run the server by executing `npm run start`.
 You will now be able to access the initial application through your browser at the url displayed in your terminal.
 
 In the folder `src` you will find a file called `app.jsx` that is the main module for your application. You can import other files from there.
