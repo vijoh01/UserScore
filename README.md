@@ -11,8 +11,6 @@ After cloning this repo, install all dependencies using `npm`. When that is comp
 You will now be able to access the initial application through your browser at the url displayed in your terminal.
 
 In the folder `src` you will find a file called `app.jsx` that is the main module for your application. You can import other files from there.
-You will also find the file `style.less` which is the base for styling. There are no requirements on a nice look and feel for this exercise but if
-you do feel that you want to add some css or less, you can do that in this file. Whenever you make changes to any of these files or imports form them, the application should update by itself.
 
 # The exercise - Ranking app
 The goal of this exercise is to create a ranking app based on some users and their scores.
