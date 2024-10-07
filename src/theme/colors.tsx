@@ -14,4 +14,4 @@ const color = {
     'background-300': '#50555e'
 }
 
-export {color}
+export { color }

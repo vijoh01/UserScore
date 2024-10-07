@@ -44,7 +44,7 @@ const createUserUtilityProvider = ({ userNameMap, userScoreMap }: {
             return true;
         },
 
-        
+
     });
 }
 

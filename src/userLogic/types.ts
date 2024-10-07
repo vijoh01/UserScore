@@ -7,7 +7,7 @@ export interface UserLogic {
     addUserIdScoreList: (data: { userId: number, score: number }[]) => boolean;
     getScoresForName: (name: string) => number[] | undefined;
     getScoresForId: (userId: number) => number[] | undefined;
-    getUsersWithScoreList: () => { _id: number, name: string, score: number }[];
+    getUsersWithScoreList: () => User[];
     clear: () => void;
 }
 
@@ -23,5 +23,11 @@ export interface UserUtilityHandler {
     createUserUtilityProvider: ({ userNameMap, userScoreMap }: {
         userNameMap: Map<number, string>,
         userScoreMap: Map<number, number[]>
-    }) => UserUtilityProvider
+    }) => UserUtilityProvider;
+}
+
+export interface User {
+    _id: number; 
+    name: string;
+    score: number;
 }

@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-import { Link } from '@chakra-ui/react'
+import { Link, Stack } from '@chakra-ui/react'
 import {
   Container,
   Box,
@@ -22,17 +22,17 @@ export default function App() {
 
   return (
     <UserLogicProvider>
-      <Container h={"100vh"} maxW={"full"} backgroundColor={color['background-100']} padding={0} margin={0} outline={"none"} flexWrap={"wrap"}>
+      <Container minH={"100vh"} minW={"100vw"} backgroundColor={color['background-100']} padding={0} margin={0} outline={"none"} flexWrap={"wrap"}>
       <Header />
 
-      <HStack flex={"flex"} h={"78%"} minW={400}>
+      <HStack flex={"flex"} minH={"70vh"} justifyContent={"center"}>
         <ListContainer />
         <MainSection />
         
       </HStack>
+      <Footer />
       
       </Container>
-      <Footer />
 
     </UserLogicProvider>
   ) 

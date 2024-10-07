@@ -1,5 +1,5 @@
 import { ExcelRow } from "../excel-dropzone";
-import { UserLogic, UserUtilityHandler} from "./types";
+import { UserLogic, UserUtilityHandler } from "./types";
 
 const createUserLogic = ({ createUserUtilityProvider }: UserUtilityHandler): UserLogic => {
     const userNameMap = new Map<number, string>();
